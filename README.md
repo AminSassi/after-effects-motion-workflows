@@ -1,0 +1,61 @@
+# After Effects Motion Design Workflows 🎬✨
+
+Production-grade motion design workflows, After Effects automation patterns, ExtendScript recipes, sound design architectures, and 9:16 vertical video guidelines crafted by [Amin Sassi](https://github.com/AminSassi).
+
+This repository serves as a **living, evolving knowledge base** that is updated and expanded with every video project, client brief, motion experiment, and automation script.
+
+---
+
+## 🚀 Repository Structure
+
+```
+.
+├── docs/
+│   ├── 01-production-workflow.md             # The end-to-end production cycle
+│   ├── 02-scripting-and-storyboarding.md     # 4-beat structure & bilingual pacing
+│   ├── 03-9-16-vertical-reel-rules.md        # Instagram Reel safe zones & mobile UI
+│   ├── 04-ae-mcp-automation-patterns.md      # After Effects ExtendScript & MCP patterns
+│   ├── 05-background-recipes-and-gradients.md# Animated gradients & Radiant background setups
+│   └── 06-sfx-and-sound-design.md            # Tactile sound design & 18-piece SFX palette
+├── templates/
+│   ├── script-and-storyboard-template.md      # Template for scripting 12-scene motion videos
+│   └── scene-breakdown-template.json         # JSON schema for AE automation pipelines
+├── scripts/
+│   ├── animated_gradient_overlay.jsx         # ExtendScript generator for wiggle gradient overlays
+│   └── center_and_fit_asset.jsx              # ExtendScript for smart layer centering & padding
+└── projects/
+    └── saas-launch-reel-55s/
+        ├── project-breakdown.md              # Deep dive into the 55.5s SaaS launch reel
+        ├── script-tunisian-arabic.md         # Full script & transcription
+        ├── storyboard-12-scenes.md           # 12-scene visual storyboard & layer map
+        └── sfx-cue-sheet.md                  # SFX synchronization cue sheet
+```
+
+---
+
+## 🎯 Core Principles
+
+1. **Editorial Motion, Not Template Flash**: Every movement has intent. Avoid gratuitous bounces and repetitive pop animations.
+2. **Tactile Sound Design**: Visuals without sound feel hollow; repetitive sounds cause fatigue. Pair distinct UI actions with distinct audio signatures (mechanical keys, paper rustles, subtle whooshes, click thuds).
+3. **9:16 Mobile-First Framing**: Always protect the Instagram UI overlay areas (14% top header, 20% bottom caption/audio zone, 12% right action buttons).
+4. **Living Knowledge Loop**: After every video render and client delivery, distill new lessons, bug fixes, and custom expressions back into this repository.
+
+---
+
+## 🛠️ Tech Stack & Tooling
+
+- **Adobe After Effects 2024 / 2025**
+- **ExtendScript / JavaScript** for procedural layer generation and keyframe interpolation
+- **After Effects MCP Automation** for headless composition assembly
+- **Adobe Media Encoder** for high-bitrate H.264/MP4 delivery
+- **Audition / Premiere Pro** for multi-track audio mastering
+
+---
+
+## 📝 Updating This Knowledge Base
+
+Whenever a new motion project is initiated:
+1. Create a new subfolder under `projects/` (e.g. `projects/my-new-reel/`).
+2. Populate the storyboard, script, and SFX cue sheets from the `templates/` directory.
+3. If new After Effects techniques or gradient recipes were discovered, update the relevant guide in `docs/` or add a new ExtendScript utility in `scripts/`.
+4. Commit and push back to GitHub.

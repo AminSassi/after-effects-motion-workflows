@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MotionReelSceneBreakdown",
+  "description": "Structured schema for programmatic After Effects reel assembly",
+  "type": "object",
+  "properties": {
+    "project": {
+      "type": "string"
+    },
+    "width": {
+      "type": "integer",
+      "default": 1080
+    },
+    "height": {
+      "type": "integer",
+      "default": 1920
+    },
+    "fps": {
+      "type": "number",
+      "default": 60.0
+    },
+    "totalDurationSeconds": {
+      "type": "number"
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "startTimeSeconds": { "type": "number" },
+          "endTimeSeconds": { "type": "number" },
+          "voiceoverTranscript": { "type": "string" },
+          "headlineText": { "type": "string" },
+          "heroAsset": { "type": "string" },
+          "backgroundType": { 
+            "type": "string",
+            "enum": ["gradient_overlay", "radiant_ribbon", "dark_solid", "custom"]
+          },
+          "sfx": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "offsetSeconds": { "type": "number" }
+              },
+              "required": ["name", "offsetSeconds"]
+            }
+          }
+        },
+        "required": ["id", "startTimeSeconds", "endTimeSeconds", "headlineText"]
+      }
+    }
+  },
+  "required": ["project", "width", "height", "fps", "scenes"]
+}

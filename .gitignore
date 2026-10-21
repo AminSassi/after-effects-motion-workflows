@@ -1,0 +1,15 @@
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# After Effects autosave & scratch
+Adobe After Effects Auto-Save/
+*.aep~
+*.tmp
+*.log
+
+# Node / Scratch
+node_modules/
+.idea/
+.vscode/
