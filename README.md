@@ -17,17 +17,22 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 04-ae-mcp-automation-patterns.md      # After Effects ExtendScript & MCP patterns
 │   ├── 05-background-recipes-and-gradients.md# Animated gradients & Radiant background setups
 │   ├── 06-sfx-and-sound-design.md            # Tactile sound design & 18-piece SFX palette
-│   └── 07-advanced-editorial-techniques.md   # Shockwaves, paper folds, TV micro-grids & flicker
+│   ├── 07-advanced-editorial-techniques.md   # Shockwaves, paper folds, TV micro-grids & flicker
+│   └── 08-apple-style-motion-graphics.md     # Apple 60fps morphing, springs, offsets & tilt
 ├── expressions/
+│   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── flicker_and_exposure.js               # Organic shutter/strobe exposure expression
+│   ├── inertial_bounce_overshoot.js          # Physics spring rebound & overshoot expression
+│   ├── master_spring_bounce.js               # Refined Apple UI spring bounce formula
 │   ├── tactile_paper_curl.js                 # Ars Active 5 paper curl & shadow sync expression
-│   └── inertial_bounce_overshoot.js          # Physics-based spring bounce & overshoot expression
+│   └── value_at_time_offset.js               # Secondary follower lag via valueAtTime()
 ├── templates/
 │   ├── script-and-storyboard-template.md      # Template for scripting 12-scene motion videos
 │   └── scene-breakdown-template.json         # JSON schema for AE automation pipelines
 ├── scripts/
 │   ├── animated_gradient_overlay.jsx         # ExtendScript generator for wiggle gradient overlays
 │   ├── center_and_fit_asset.jsx              # ExtendScript for smart layer centering & padding
+│   ├── create_apple_morph_comp.jsx           # Automated 60fps Apple morphing setup generator
 │   ├── create_exposure_flicker.jsx           # ExtendScript for exposure flicker adjustment layers
 │   ├── create_shockwave_displacement.jsx     # ExtendScript rig for shockwave refraction + CC Glass
 │   └── create_tv_grid_texture.jsx            # ExtendScript generator for CRT micro-dot TV overlays
