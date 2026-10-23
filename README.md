@@ -18,13 +18,16 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 05-background-recipes-and-gradients.md# Animated gradients & Radiant background setups
 │   ├── 06-sfx-and-sound-design.md            # Tactile sound design & 18-piece SFX palette
 │   ├── 07-advanced-editorial-techniques.md   # Shockwaves, paper folds, TV micro-grids & flicker
-│   └── 08-apple-style-motion-graphics.md     # Apple 60fps morphing, springs, offsets & tilt
+│   ├── 08-apple-style-motion-graphics.md     # Apple 60fps morphing, springs, offsets & tilt
+│   └── 09-documentary-motion-and-3d-parallax.md # Vox/documentary 15fps, 3D parallax & camera chaining
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
+│   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
 │   ├── flicker_and_exposure.js               # Organic shutter/strobe exposure expression
 │   ├── inertial_bounce_overshoot.js          # Physics spring rebound & overshoot expression
 │   ├── master_spring_bounce.js               # Refined Apple UI spring bounce formula
 │   ├── tactile_paper_curl.js                 # Ars Active 5 paper curl & shadow sync expression
+│   ├── turbulent_fog_evolution.js            # Atmospheric drifting fog evolution expression
 │   └── value_at_time_offset.js               # Secondary follower lag via valueAtTime()
 ├── templates/
 │   ├── script-and-storyboard-template.md      # Template for scripting 12-scene motion videos
@@ -33,6 +36,8 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── animated_gradient_overlay.jsx         # ExtendScript generator for wiggle gradient overlays
 │   ├── center_and_fit_asset.jsx              # ExtendScript for smart layer centering & padding
 │   ├── create_apple_morph_comp.jsx           # Automated 60fps Apple morphing setup generator
+│   ├── create_curved_paper_cylinder.jsx      # 3D curved paper cylinder rig (CC Cylinder)
+│   ├── create_documentary_camera_rig.jsx     # Automated 15fps chained 3D camera rig & grade
 │   ├── create_exposure_flicker.jsx           # ExtendScript for exposure flicker adjustment layers
 │   ├── create_shockwave_displacement.jsx     # ExtendScript rig for shockwave refraction + CC Glass
 │   └── create_tv_grid_texture.jsx            # ExtendScript generator for CRT micro-dot TV overlays
