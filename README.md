@@ -19,7 +19,10 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 06-sfx-and-sound-design.md            # Tactile sound design & 18-piece SFX palette
 │   ├── 07-advanced-editorial-techniques.md   # Shockwaves, paper folds, TV micro-grids & flicker
 │   ├── 08-apple-style-motion-graphics.md     # Apple 60fps morphing, springs, offsets & tilt
-│   └── 09-documentary-motion-and-3d-parallax.md # Vox/documentary 15fps, 3D parallax & camera chaining
+│   ├── 09-documentary-motion-and-3d-parallax.md # Vox/documentary 15fps, 3D parallax & camera chaining
+│   ├── 10-kinetic-pixel-style-workflow.md    # Kinetic pixel trails, mosaic quantizer & card bevels
+│   ├── 11-3d-camera-larping-method.md        # L.A.R.P. 3D camera framework & nested null chains
+│   └── 12-organic-text-texture-blending.md   # 4-effect organic ink, paper & surface texture stack
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
@@ -40,7 +43,10 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── create_documentary_camera_rig.jsx     # Automated 15fps chained 3D camera rig & grade
 │   ├── create_exposure_flicker.jsx           # ExtendScript for exposure flicker adjustment layers
 │   ├── create_shockwave_displacement.jsx     # ExtendScript rig for shockwave refraction + CC Glass
-│   └── create_tv_grid_texture.jsx            # ExtendScript generator for CRT micro-dot TV overlays
+│   ├── create_tv_grid_texture.jsx            # ExtendScript generator for CRT micro-dot TV overlays
+│   ├── pixel_stream_generator.jsx            # Procedural Trim Paths + Turbulent + Mosaic generator
+│   ├── 3d_camera_null_chain.jsx              # Setup L.A.R.P. 3D camera & nested null hierarchy
+│   └── apply_organic_text_texture.jsx        # Procedural ink bleed, grain & stop-motion text stack
 └── projects/
     └── saas-launch-reel-55s/
         ├── project-breakdown.md              # Deep dive into the 55.5s SaaS launch reel
