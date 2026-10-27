@@ -22,6 +22,30 @@
     "totalDurationSeconds": {
       "type": "number"
     },
+    "assets": {
+      "type": "array",
+      "description": "Asset manifest fetched automatically via scripts/fetch_assets.py",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string", "enum": ["icon", "logo", "avatar", "monogram", "photo", "qr", "wikimedia"] },
+          "id": { "type": "string" },
+          "brand": { "type": "string" },
+          "seed": { "type": "string" },
+          "style": { "type": "string" },
+          "format": { "type": "string" },
+          "size": { "type": "integer" },
+          "color": { "type": "string" },
+          "width": { "type": "integer" },
+          "height": { "type": "integer" },
+          "blur": { "type": "integer" },
+          "grayscale": { "type": "boolean" },
+          "data": { "type": "string" },
+          "output": { "type": "string" }
+        },
+        "required": ["type", "output"]
+      }
+    },
     "scenes": {
       "type": "array",
       "items": {
