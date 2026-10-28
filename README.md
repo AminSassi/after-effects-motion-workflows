@@ -29,7 +29,8 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 16-liquid-motion-and-metaballs.md     # Viscous fluid metaballs, alpha choke & surface tension
 │   ├── 17-isometric-2-5d-motion-rigging.md   # Axonometric SSR math, elevation physics & 3-tone shading
 │   ├── 18-cel-animation-line-boil.md         # 12fps/8fps hand-drawn line boil & organic edge flutter
-│   └── 19-dental-product-ad-workflow.md      # Clean minimal 9:16 dental product ads (MCP pipeline + lessons)
+│   ├── 19-dental-product-ad-workflow.md      # Clean minimal 9:16 dental product ads (MCP pipeline + lessons)
+│   └── 20-blender-product-rendering-pipeline.md # Blender 3D product rendering, camera animations & QA pipeline
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
@@ -75,6 +76,9 @@ This repository serves as a **living, evolving knowledge base** that is updated 
         ├── script-tunisian-arabic.md         # Full script & transcription
         ├── storyboard-12-scenes.md           # 12-scene visual storyboard & layer map
         └── sfx-cue-sheet.md                  # SFX synchronization cue sheet
+├── vendor/
+    ├── blender-skills/                       # kevinbadi/blender-skills: camera rigs, loops, product polish
+    └── el4cteo-blender-skills/               # EL4CTEO/blender-skills: 20+ Blender 5.x skills, PBR, QA scripts
 ```
 
 ---
@@ -130,6 +134,23 @@ return BUILD_AD(CFG);
 | Build / rebuild | `BUILD_AD(CFG)` (idempotent) |
 | QA | `batch.run` × `render.frame` → `review_contact_sheet.py frames` |
 | Deliver | H.264 – Match Render Settings – 15 Mbps |
+
+---
+
+## 🧊 Blender 3D Product & Camera Skills
+
+Integrated submodules for 3D product rendering, automated mesh QA, and cinematic camera animations. Full guide: [docs/20-blender-product-rendering-pipeline.md](docs/20-blender-product-rendering-pipeline.md).
+
+Addressing the **0xCodio challenge** ([@0xCodio/status/2109275834984915150](https://x.com/0xCodio/status/2109275834984915150)): AI agents frequently generate broken 3D assets due to deprecated `bpy` APIs and invisible mesh errors (inverted normals, non-manifold edges). This repo integrates two specialized toolsets:
+
+1. **[EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills)** (`vendor/el4cteo-blender-skills`):
+   - 20+ specialized production skills for modern Blender 5.x.
+   - Automated asset QA diagnostics (`blender-asset-qa/scripts/qa_check.py`).
+   - PBR shader generator (`blender-pbr-materials`) and headless execution (`blender-core/scripts/run_in_blender.py`).
+2. **[kevinbadi/blender-skills](https://github.com/kevinbadi/blender-skills)** (`vendor/blender-skills`):
+   - 6 product camera moves (`turntable`, `slow-zoom`, `dolly-rotate`, `crane-shot`, `dynamic-full-loop`, `perfect-loop`).
+   - `product-polish`: glossy product-shot material finish with 4-point studio lighting.
+   - All camera animations export as **ProRes 4444 with alpha** for direct ingestion into `dental_product_ad_builder.jsx`.
 
 ---
 
