@@ -4,3 +4,6 @@
 [submodule "vendor/el4cteo-blender-skills"]
 	path = vendor/el4cteo-blender-skills
 	url = https://github.com/EL4CTEO/blender-skills.git
+[submodule "vendor/arjun-blender-skills"]
+	path = vendor/arjun-blender-skills
+	url = https://github.com/arjun988/blender-skills.git

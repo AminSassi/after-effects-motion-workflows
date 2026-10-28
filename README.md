@@ -77,6 +77,7 @@ This repository serves as a **living, evolving knowledge base** that is updated 
         ├── storyboard-12-scenes.md           # 12-scene visual storyboard & layer map
         └── sfx-cue-sheet.md                  # SFX synchronization cue sheet
 ├── vendor/
+    ├── arjun-blender-skills/                 # arjun988/blender-skills: 94 skills, director routing, cinematography
     ├── blender-skills/                       # kevinbadi/blender-skills: camera rigs, loops, product polish
     └── el4cteo-blender-skills/               # EL4CTEO/blender-skills: 20+ Blender 5.x skills, PBR, QA scripts
 ```
@@ -141,7 +142,7 @@ return BUILD_AD(CFG);
 
 Integrated submodules for 3D product rendering, automated mesh QA, and cinematic camera animations. Full guide: [docs/20-blender-product-rendering-pipeline.md](docs/20-blender-product-rendering-pipeline.md).
 
-Addressing the **0xCodio challenge** ([@0xCodio/status/2109275834984915150](https://x.com/0xCodio/status/2109275834984915150)): AI agents frequently generate broken 3D assets due to deprecated `bpy` APIs and invisible mesh errors (inverted normals, non-manifold edges). This repo integrates two specialized toolsets:
+Addressing the **0xCodio challenge** ([@0xCodio/status/2109275834984915150](https://x.com/0xCodio/status/2109275834984915150)): AI agents frequently generate broken 3D assets due to deprecated `bpy` APIs and invisible mesh errors (inverted normals, non-manifold edges). This repo integrates three complementary toolsets:
 
 1. **[EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills)** (`vendor/el4cteo-blender-skills`):
    - 20+ specialized production skills for modern Blender 5.x.
@@ -151,6 +152,11 @@ Addressing the **0xCodio challenge** ([@0xCodio/status/2109275834984915150](http
    - 6 product camera moves (`turntable`, `slow-zoom`, `dolly-rotate`, `crane-shot`, `dynamic-full-loop`, `perfect-loop`).
    - `product-polish`: glossy product-shot material finish with 4-point studio lighting.
    - All camera animations export as **ProRes 4444 with alpha** for direct ingestion into `dental_product_ad_builder.jsx`.
+3. **[arjun988/blender-skills](https://github.com/arjun988/blender-skills)** (`vendor/arjun-blender-skills`):
+   - 94 skills & 175+ reference guides for senior technical art direction.
+   - `blender-director`: automated routing and reference photo matching.
+   - `camera-cinematography`: 50mm/85mm macro focal lengths and depth of field rules.
+   - `hard-surface` & `prop-artist`: precision sub-d modeling for medical instruments and dental syringes.
 
 ---
 

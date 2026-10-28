@@ -2,9 +2,10 @@
 
 How to prepare, animate, QA, and export 3D product renders in Blender for seamless integration into After Effects motion workflows.
 
-This architecture integrates two battle-tested agent skill suites:
+This architecture integrates three battle-tested agent skill suites:
 1. **[EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills)** (`vendor/el4cteo-blender-skills`): Comprehensive Blender 5.x production pipeline, modern `bpy` API patterns, PBR materials, and automated mesh QA diagnostics.
 2. **[kevinbadi/blender-skills](https://github.com/kevinbadi/blender-skills)** (`vendor/blender-skills`): Product showcase camera rigs (turntable, slow-zoom, dolly-rotate, crane-shot, loops) and automated studio lighting polish.
+3. **[arjun988/blender-skills](https://github.com/arjun988/blender-skills)** (`vendor/arjun-blender-skills`): Massive 94-skill Senior Technical Art suite featuring `blender-director` routing, reference photo analysis, camera cinematography rules, and material lookdev.
 
 ---
 
@@ -85,6 +86,12 @@ flowchart TD
   - Degenerate / zero-area faces
   - Overlapping UV islands & texel density variance
 - **`blender-lighting-lookdev` & `blender-pbr-materials`**: Physically accurate dielectric / metallic PBR shader builder.
+
+### 3. Senior Technical Art Director (`vendor/arjun-blender-skills`)
+- **`blender-director`**: High-level task routing and reference analysis (`reference-image-match.md`). When given a real photo of a dental product, Director analyzes proportions, materials, and lighting before any modeling starts.
+- **`camera-cinematography`**: Professional lens and focal length rules (`lens-and-composition.md`, `dof-guide.md`). Recommends 50mm–85mm for undistorted product macro shots and depth-of-field falloff.
+- **`prop-artist` & `hard-surface`**: Specialized sub-d modifier stacks and bevel shaders for medical-grade plastic moldings and metallic syringes.
+- **`minimalist-style`**: Curated clean palettes and subtle lighting contrast rules designed for premium medical and commercial advertising.
 
 ---
 
