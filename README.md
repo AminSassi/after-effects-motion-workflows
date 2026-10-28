@@ -28,7 +28,8 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 15-cyberpunk-hud-workflows.md         # Cyberpunk/FUI telemetry, concentric reticles & scanlines
 │   ├── 16-liquid-motion-and-metaballs.md     # Viscous fluid metaballs, alpha choke & surface tension
 │   ├── 17-isometric-2-5d-motion-rigging.md   # Axonometric SSR math, elevation physics & 3-tone shading
-│   └── 18-cel-animation-line-boil.md         # 12fps/8fps hand-drawn line boil & organic edge flutter
+│   ├── 18-cel-animation-line-boil.md         # 12fps/8fps hand-drawn line boil & organic edge flutter
+│   └── 19-dental-product-ad-workflow.md      # Clean minimal 9:16 dental product ads (MCP pipeline + lessons)
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
@@ -60,8 +61,15 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── create_tv_grid_texture.jsx            # ExtendScript generator for CRT micro-dot TV overlays
 │   ├── pixel_stream_generator.jsx            # Procedural Trim Paths + Turbulent + Mosaic generator
 │   ├── 3d_camera_null_chain.jsx              # Setup L.A.R.P. 3D camera & nested null hierarchy
-│   └── apply_organic_text_texture.jsx        # Procedural ink bleed, grain & stop-motion text stack
+│   ├── apply_organic_text_texture.jsx        # Procedural ink bleed, grain & stop-motion text stack
+│   ├── dental_product_ad_builder.jsx         # Config-driven product ad builder: cards, captions, headlines, end card
+│   ├── transcribe_vo_words.py                # faster-whisper word timestamps for VO-synced captions
+│   └── review_contact_sheet.py               # Footage overview + render QA contact sheets
 └── projects/
+    ├── iliner-dental-ad-v2/
+    │   ├── README.md                         # i-LINER 58s ad: timeline, lessons, open items
+    │   └── ad_config.jsx                     # Reference CFG for dental_product_ad_builder.jsx
+    ├── iliner-dental-reel-9-16/              # v1 6-scene reel (superseded)
     └── saas-launch-reel-55s/
         ├── project-breakdown.md              # Deep dive into the 55.5s SaaS launch reel
         ├── script-tunisian-arabic.md         # Full script & transcription
@@ -99,6 +107,29 @@ Inspired by the algorithmic, code-generated motion experiments in [Vincentwei102
 | **Apple Morphing Systems** | [docs/08-apple-style-motion-graphics.md](docs/08-apple-style-motion-graphics.md) | `scripts/create_apple_morph_comp.jsx` + `master_spring_bounce.js` | `60.0 fps` |
 | **Vox/Documentary Parallax** | [docs/09-documentary-motion-and-3d-parallax.md](docs/09-documentary-motion-and-3d-parallax.md) | `scripts/create_documentary_camera_rig.jsx` + `3d_camera_null_chain.jsx` | `15.0 fps` |
 | **Kinetic Pixel Systems** | [docs/10-kinetic-pixel-style-workflow.md](docs/10-kinetic-pixel-style-workflow.md) | `scripts/pixel_stream_generator.jsx` | `15/30 fps` |
+
+---
+
+## 🦷 Dental / Medical Product Ads (Clean · Minimal · 9:16)
+
+Alpha 3D product renders on a soft light gradient + white pop-up explainer cards + word-synced captions,
+generated end-to-end through After Effects MCP. Full guide: [docs/19-dental-product-ad-workflow.md](docs/19-dental-product-ad-workflow.md).
+
+```js
+// ae_do eval.run — new product = new config file, same builder
+$.evalFile(new File(R + 'scripts/dental_product_ad_builder.jsx'));
+$.evalFile(new File(R + 'projects/<product>/ad_config.jsx'));   // copy projects/iliner-dental-ad-v2/ad_config.jsx
+IMPORT_ASSETS(CFG);
+return BUILD_AD(CFG);
+```
+
+| Step | Tool |
+| :--- | :--- |
+| VO word timings | `python scripts/transcribe_vo_words.py vo.mp3 --lang fr` |
+| See all clips | `python scripts/review_contact_sheet.py clips ALL_VIDEOS sheet.jpg` |
+| Build / rebuild | `BUILD_AD(CFG)` (idempotent) |
+| QA | `batch.run` × `render.frame` → `review_contact_sheet.py frames` |
+| Deliver | H.264 – Match Render Settings – 15 Mbps |
 
 ---
 
