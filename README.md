@@ -23,12 +23,19 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 10-kinetic-pixel-style-workflow.md    # Kinetic pixel trails, mosaic quantizer & card bevels
 │   ├── 11-3d-camera-larping-method.md        # L.A.R.P. 3D camera framework & nested null chains
 │   ├── 12-organic-text-texture-blending.md   # 4-effect organic ink, paper & surface texture stack
-│   └── 13-asset-and-icon-apis.md             # Headless asset APIs (Iconify, DiceBear, Picsum, Wiki)
+│   ├── 13-asset-and-icon-apis.md             # Headless asset APIs (Iconify, DiceBear, Picsum, Wiki)
+│   ├── 14-motion-styles-matrix-15.md         # Master translation matrix for the 15 code-generated styles
+│   ├── 15-cyberpunk-hud-workflows.md         # Cyberpunk/FUI telemetry, concentric reticles & scanlines
+│   ├── 16-liquid-motion-and-metaballs.md     # Viscous fluid metaballs, alpha choke & surface tension
+│   ├── 17-isometric-2-5d-motion-rigging.md   # Axonometric SSR math, elevation physics & 3-tone shading
+│   └── 18-cel-animation-line-boil.md         # 12fps/8fps hand-drawn line boil & organic edge flutter
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
 │   ├── flicker_and_exposure.js               # Organic shutter/strobe exposure expression
+│   ├── hud_telemetry_counter.js              # Cyberpunk dynamic hex & coordinate telemetry stream
 │   ├── inertial_bounce_overshoot.js          # Physics spring rebound & overshoot expression
+│   ├── liquid_surface_tension.js             # Viscoelastic volume-conserving droplet squash-and-stretch
 │   ├── master_spring_bounce.js               # Refined Apple UI spring bounce formula
 │   ├── tactile_paper_curl.js                 # Ars Active 5 paper curl & shadow sync expression
 │   ├── turbulent_fog_evolution.js            # Atmospheric drifting fog evolution expression
@@ -40,11 +47,15 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── fetch_assets.py                       # Zero-dependency CLI for Iconify, DiceBear, Logos, Photos & QR
 │   ├── import_and_layout_asset.jsx           # ExtendScript auto-import, continuous rasterization & safe-fit
 │   ├── animated_gradient_overlay.jsx         # ExtendScript generator for wiggle gradient overlays
+│   ├── apply_cel_line_boil.jsx               # One-click 12fps line boil & organic displacement applicator
 │   ├── center_and_fit_asset.jsx              # ExtendScript for smart layer centering & padding
 │   ├── create_apple_morph_comp.jsx           # Automated 60fps Apple morphing setup generator
 │   ├── create_curved_paper_cylinder.jsx      # 3D curved paper cylinder rig (CC Cylinder)
+│   ├── create_cyberpunk_hud_rig.jsx          # Automated 60fps Cyberpunk holographic HUD reticle rig
 │   ├── create_documentary_camera_rig.jsx     # Automated 15fps chained 3D camera rig & grade
 │   ├── create_exposure_flicker.jsx           # ExtendScript for exposure flicker adjustment layers
+│   ├── create_isometric_cube_rig.jsx         # Automated 60fps SSR isometric 2.5D cube & shadow rig
+│   ├── create_liquid_metaball_rig.jsx        # Automated fluid metaball rig with alpha choke pipeline
 │   ├── create_shockwave_displacement.jsx     # ExtendScript rig for shockwave refraction + CC Glass
 │   ├── create_tv_grid_texture.jsx            # ExtendScript generator for CRT micro-dot TV overlays
 │   ├── pixel_stream_generator.jsx            # Procedural Trim Paths + Turbulent + Mosaic generator
@@ -72,6 +83,22 @@ Autonomous agents and motion scripts can directly query, download, and style ass
 | **Stock Backdrops** | **Picsum Photos** (`https://picsum.photos`) | ✅ 100% Free | `python scripts/fetch_assets.py photo --seed bg916 --width 1080 --height 1920` |
 | **QR Code CTAs** | **QR Server** (`https://api.qrserver.com`) | ✅ 100% Free | `python scripts/fetch_assets.py qr "https://example.com" -o qr.svg` |
 | **Documentary** | **Wikimedia Commons API** | ✅ 100% Free | `python scripts/fetch_assets.py wikimedia "Nikola Tesla" --limit 2` |
+
+---
+
+## 🌐 The 15 Motion Design Styles (Code to After Effects)
+
+Inspired by the algorithmic, code-generated motion experiments in [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15), this repository provides full After Effects architectural translations, effect stacks, and ExtendScript generators for 15 distinct motion styles. See [docs/14-motion-styles-matrix-15.md](docs/14-motion-styles-matrix-15.md) for the master translation index.
+
+| Style | Document Guide | Key ExtendScript Rig / Expression | Target FPS |
+| :--- | :--- | :--- | :--- |
+| **Cyberpunk HUD / FUI** | [docs/15-cyberpunk-hud-workflows.md](docs/15-cyberpunk-hud-workflows.md) | `scripts/create_cyberpunk_hud_rig.jsx` + `hud_telemetry_counter.js` | `60.0 fps` |
+| **Liquid Motion & Metaballs** | [docs/16-liquid-motion-and-metaballs.md](docs/16-liquid-motion-and-metaballs.md) | `scripts/create_liquid_metaball_rig.jsx` + `liquid_surface_tension.js` | `30.0 fps` |
+| **Isometric 2.5D Rigging** | [docs/17-isometric-2-5d-motion-rigging.md](docs/17-isometric-2-5d-motion-rigging.md) | `scripts/create_isometric_cube_rig.jsx` (Exact SSR math) | `60.0 fps` |
+| **Cel Animation & Line Boil** | [docs/18-cel-animation-line-boil.md](docs/18-cel-animation-line-boil.md) | `scripts/apply_cel_line_boil.jsx` (12fps procedural boil) | `12.0 fps` |
+| **Apple Morphing Systems** | [docs/08-apple-style-motion-graphics.md](docs/08-apple-style-motion-graphics.md) | `scripts/create_apple_morph_comp.jsx` + `master_spring_bounce.js` | `60.0 fps` |
+| **Vox/Documentary Parallax** | [docs/09-documentary-motion-and-3d-parallax.md](docs/09-documentary-motion-and-3d-parallax.md) | `scripts/create_documentary_camera_rig.jsx` + `3d_camera_null_chain.jsx` | `15.0 fps` |
+| **Kinetic Pixel Systems** | [docs/10-kinetic-pixel-style-workflow.md](docs/10-kinetic-pixel-style-workflow.md) | `scripts/pixel_stream_generator.jsx` | `15/30 fps` |
 
 ---
 
