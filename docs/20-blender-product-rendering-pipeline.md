@@ -21,6 +21,34 @@ In his viral thread ([@0xCodio/status/2109275834984915150](https://x.com/0xCodio
 
 ---
 
+## 🔬 Evidence: Skills vs. No Skills (The Benchmark)
+
+From the official [Blender Skills Comparison Benchmark](https://el4cteo.github.io/blender-skills/comparison/) (tested with Opus 5.5, Blender 5.2, one-shot with no retries):
+
+| Task | Without Skills (Raw LLM) | With Blender Agent Skills | Why It Matters for Motion Design |
+|---|---|---|---|
+| **4K PBR Surface** (Concrete) | Generic maps, loose files, uncalibrated roughness | Procedural source baked to BaseColor, Normal, Height + **Packed ORM map** (Occlusion-Roughness-Metallic) | Proper specular reflection falloff on product bottles/syringes without plastic look |
+| **Physics Simulation** (Cloth / Liquid) | Flat plane, unbaked cache, missing collision objects | Proper collision geometry, baked physics cache, multi-angle QA review sheet | Prevents liquid drops or packaging foils from clipping through product trays |
+| **Mechanical Modeling & Animation** (Pistol / Syringe) | Single blocky mesh, clipping parts, invisible non-manifold defects | **19 named functional parts** (slide, barrel, mag, pins), 0 z-fighting, clean manifold geometry | Essential for exploded assembly views (like `v3_23_tooth_layers_exploded.mov`) |
+
+---
+
+## ⚠️ Blender 5.x API Traps (What Untrained LLMs Get Wrong)
+
+See `vendor/el4cteo-blender-skills/skills/blender-core/references/api-changes-5x.md`:
+
+- **Principled BSDF Sockets**:
+  - `Subsurface` → `Subsurface Weight`
+  - `Specular` → `Specular IOR Level`
+  - `Transmission` → `Transmission Weight`
+  - `Coat` / `Clearcoat` → `Coat Weight`
+  - `Emission` → `Emission Color`
+- **Auto Smooth**: `mesh.use_auto_smooth` was **completely removed** in Blender 4.1+. Use `bpy.ops.object.shade_smooth_by_angle(angle=...)` or the modifier asset.
+- **Node Groups**: `ng.inputs.new()` was replaced by `ng.interface.new_socket(name, in_out='INPUT', socket_type=...)`.
+- **Color Transform**: Default view transform in Blender 5.x is `AgX`, not `Filmic`. Color management must match AE working space.
+
+---
+
 ## 🎬 End-to-End Product-to-Ad Pipeline
 
 ```mermaid
