@@ -7,7 +7,9 @@ word-synced captions. Proven on **i-LINER (i-dental) for Syphax Medico Dentaire*
 
 Reference implementation:
 - Builder library → [`scripts/dental_product_ad_builder.jsx`](../scripts/dental_product_ad_builder.jsx)
-- Example config → [`projects/iliner-dental-ad-v2/ad_config.jsx`](../projects/iliner-dental-ad-v2/ad_config.jsx)
+- Example config (i-LINER) → [`projects/iliner-dental-ad-v2/ad_config.jsx`](../projects/iliner-dental-ad-v2/ad_config.jsx)
+- Dual-comp Master + 18s Reel builder (i-FIX® Duo) → [`projects/ifix-duo-dental-ad/build_ifix_duo.jsx`](../projects/ifix-duo-dental-ad/build_ifix_duo.jsx)
+- 3D clinical interventions & IFU compliance guide → [`docs/21-clinical-dental-3d-and-ifu-compliance.md`](21-clinical-dental-3d-and-ifu-compliance.md)
 - VO word timing → [`scripts/transcribe_vo_words.py`](../scripts/transcribe_vo_words.py)
 - Visual QA sheets → [`scripts/review_contact_sheet.py`](../scripts/review_contact_sheet.py)
 

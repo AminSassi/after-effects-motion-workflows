@@ -47,6 +47,7 @@ See `vendor/el4cteo-blender-skills/skills/blender-core/references/api-changes-5x
 - **Auto Smooth**: `mesh.use_auto_smooth` was **completely removed** in Blender 4.1+. Use `bpy.ops.object.shade_smooth_by_angle(angle=...)` or the modifier asset.
 - **Node Groups**: `ng.inputs.new()` was replaced by `ng.interface.new_socket(name, in_out='INPUT', socket_type=...)`.
 - **Color Transform**: Default view transform in Blender 5.x is `AgX`, not `Filmic`. Color management must match AE working space.
+- **Keyframe Removal in F-Curves**: Calling `fc.keyframe_points.remove(kp)` while iterating `list(fc.keyframe_points)` throws `RuntimeError: Error: Keyframe not in F-Curve` in Blender 5.2. Use `fc.keyframe_points.clear()` or overwrite keyframes per frame with `obj.keyframe_insert(data_path=..., frame=f)`. See [`docs/21-clinical-dental-3d-and-ifu-compliance.md`](21-clinical-dental-3d-and-ifu-compliance.md) for clinical 3D dental rigging and collision-free box extraction.
 
 ---
 

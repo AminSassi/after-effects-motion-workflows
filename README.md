@@ -30,7 +30,8 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 17-isometric-2-5d-motion-rigging.md   # Axonometric SSR math, elevation physics & 3-tone shading
 │   ├── 18-cel-animation-line-boil.md         # 12fps/8fps hand-drawn line boil & organic edge flutter
 │   ├── 19-dental-product-ad-workflow.md      # Clean minimal 9:16 dental product ads (MCP pipeline + lessons)
-│   └── 20-blender-product-rendering-pipeline.md # Blender 3D product rendering, camera animations & QA pipeline
+│   ├── 20-blender-product-rendering-pipeline.md # Blender 3D product rendering, camera animations & QA pipeline
+│   └── 21-clinical-dental-3d-and-ifu-compliance.md # 3D clinical dental interventions, IFU compliance & 3D/flat harmonization
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
@@ -67,6 +68,11 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── transcribe_vo_words.py                # faster-whisper word timestamps for VO-synced captions
 │   └── review_contact_sheet.py               # Footage overview + render QA contact sheets
 └── projects/
+    ├── ifix-duo-dental-ad/
+    │   ├── README.md                         # i-FIX Duo 63.5s Master + 18s Reel: IFU protocol, storyboard & lessons
+    │   ├── build_ifix_duo.jsx                # Dual-comp builder (Master + Short Reel) with 3D/flat harmonization
+    │   ├── vo_ifix.json                      # faster-whisper word timestamps for the French VO
+    │   └── blender/                          # 4K texture generator, 3D Automix product rig & IFU clinical scenes
     ├── iliner-dental-ad-v2/
     │   ├── README.md                         # i-LINER 58s ad: timeline, lessons, open items
     │   └── ad_config.jsx                     # Reference CFG for dental_product_ad_builder.jsx
@@ -117,8 +123,11 @@ Inspired by the algorithmic, code-generated motion experiments in [Vincentwei102
 
 ## 🦷 Dental / Medical Product Ads (Clean · Minimal · 9:16)
 
-Alpha 3D product renders on a soft light gradient + white pop-up explainer cards + word-synced captions,
-generated end-to-end through After Effects MCP. Full guide: [docs/19-dental-product-ad-workflow.md](docs/19-dental-product-ad-workflow.md).
+Alpha or studio-harmonized 3D product & clinical renders on a soft light gradient + white pop-up explainer cards + word-synced captions,
+generated end-to-end through After Effects MCP.
+- Full workflow guide: [docs/19-dental-product-ad-workflow.md](docs/19-dental-product-ad-workflow.md)
+- 3D clinical interventions, IFU compliance & hybrid 3D/flat harmonization: [docs/21-clinical-dental-3d-and-ifu-compliance.md](docs/21-clinical-dental-3d-and-ifu-compliance.md)
+- Reference projects: [`projects/iliner-dental-ad-v2/`](projects/iliner-dental-ad-v2/) & [`projects/ifix-duo-dental-ad/`](projects/ifix-duo-dental-ad/)
 
 ```js
 // ae_do eval.run — new product = new config file, same builder
