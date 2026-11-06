@@ -1,5 +1,7 @@
 # 06 — Sound Design & The 18-Piece SFX Palette 🔊🎧
 
+> **Pipeline for real recordings (Openverse + earshot + real-sfx rules): see [22-real-sfx-earshot-openverse-pipeline.md](22-real-sfx-earshot-openverse-pipeline.md).**
+
 Sound design is 50% of the viewer's perceived production quality. A reel with stock music alone feels sterile. Synchronized, tactile audio cues ground abstract digital animations in physical reality.
 
 ---

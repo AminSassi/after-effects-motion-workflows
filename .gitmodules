@@ -7,3 +7,9 @@
 [submodule "vendor/arjun-blender-skills"]
 	path = vendor/arjun-blender-skills
 	url = https://github.com/arjun988/blender-skills.git
+[submodule "vendor/earshot"]
+	path = vendor/earshot
+	url = https://github.com/Leonxlnx/earshot
+[submodule "vendor/clipwing-skills"]
+	path = vendor/clipwing-skills
+	url = https://github.com/Clipwing/skills

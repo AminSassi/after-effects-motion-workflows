@@ -31,7 +31,8 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 18-cel-animation-line-boil.md         # 12fps/8fps hand-drawn line boil & organic edge flutter
 │   ├── 19-dental-product-ad-workflow.md      # Clean minimal 9:16 dental product ads (MCP pipeline + lessons)
 │   ├── 20-blender-product-rendering-pipeline.md # Blender 3D product rendering, camera animations & QA pipeline
-│   └── 21-clinical-dental-3d-and-ifu-compliance.md # 3D clinical dental interventions, IFU compliance & 3D/flat harmonization
+│   ├── 21-clinical-dental-3d-and-ifu-compliance.md # 3D clinical dental interventions, IFU compliance & 3D/flat harmonization
+│   └── 22-real-sfx-earshot-openverse-pipeline.md # Real CC0 SFX from Openverse, earshot audit, cue-log timed mix
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
@@ -47,6 +48,8 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── script-and-storyboard-template.md      # Template for scripting 12-scene motion videos
 │   └── scene-breakdown-template.json         # JSON schema for AE automation pipelines & asset manifests
 ├── scripts/
+│   ├── fetch_openverse_audio.py              # Openverse API: real CC0 sound effects by role + licence manifest
+│   ├── sfx_mix_from_cues.py                  # Cue-log -> thinned, voice-safe real-SFX track (earshot-audited picks)
 │   ├── fetch_assets.py                       # Zero-dependency CLI for Iconify, DiceBear, Logos, Photos & QR
 │   ├── import_and_layout_asset.jsx           # ExtendScript auto-import, continuous rasterization & safe-fit
 │   ├── animated_gradient_overlay.jsx         # ExtendScript generator for wiggle gradient overlays
@@ -68,6 +71,7 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── transcribe_vo_words.py                # faster-whisper word timestamps for VO-synced captions
 │   └── review_contact_sheet.py               # Footage overview + render QA contact sheets
 └── projects/
+    ├── shopili-overhaul2/                    # 117s POS ad: real SFX pipeline, one-line smart subs, 3D icon motion
     ├── ifix-duo-dental-ad/
     │   ├── README.md                         # i-FIX Duo 63.5s Master + 18s Reel: IFU protocol, storyboard & lessons
     │   ├── build_ifix_duo.jsx                # Dual-comp builder (Master + Short Reel) with 3D/flat harmonization

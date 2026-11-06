@@ -1,0 +1,1306 @@
+[
+ {
+  "t": 0.02,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 0.02
+ },
+ {
+  "t": 0.3,
+  "event": "fly",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -14,
+  "anchor": "peak",
+  "start": 0.254
+ },
+ {
+  "t": 0.66,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 0.66
+ },
+ {
+  "t": 0.82,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 0.696
+ },
+ {
+  "t": 1.42,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 1.42
+ },
+ {
+  "t": 1.64,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 1.425
+ },
+ {
+  "t": 2.3,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 2.3
+ },
+ {
+  "t": 3.08,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 2.775
+ },
+ {
+  "t": 3.56,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 3.56
+ },
+ {
+  "t": 3.76,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 3.455
+ },
+ {
+  "t": 4.72,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 4.72
+ },
+ {
+  "t": 4.84,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 4.716
+ },
+ {
+  "t": 5.1,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 5.1
+ },
+ {
+  "t": 5.8,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 5.585
+ },
+ {
+  "t": 5.98,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 5.98
+ },
+ {
+  "t": 6.5,
+  "event": "strike",
+  "sound": "marker/marker_01_marker_whiteboard_short05.wav",
+  "gain_db": -8,
+  "anchor": "onset",
+  "start": 6.5
+ },
+ {
+  "t": 6.95,
+  "event": "crack",
+  "sound": "paper/paper_04_short_ripping_sound.wav",
+  "gain_db": -7,
+  "anchor": "onset",
+  "start": 6.95
+ },
+ {
+  "t": 7.4,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 7.095
+ },
+ {
+  "t": 8.12,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 7.905
+ },
+ {
+  "t": 8.82,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 8.82
+ },
+ {
+  "t": 8.96,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 8.655
+ },
+ {
+  "t": 9.74,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 9.616
+ },
+ {
+  "t": 10.56,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 10.345
+ },
+ {
+  "t": 11.54,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 11.235
+ },
+ {
+  "t": 12.28,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 12.28
+ },
+ {
+  "t": 12.52,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 12.52
+ },
+ {
+  "t": 13.86,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 13.736
+ },
+ {
+  "t": 14.16,
+  "event": "override",
+  "sound": "coin/coin_03_coin_dropped.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 14.16
+ },
+ {
+  "t": 14.5,
+  "event": "fly",
+  "sound": "coin/coin_02_real_coin_drop.wav",
+  "gain_db": -13,
+  "anchor": "onset",
+  "start": 14.5
+ },
+ {
+  "t": 14.62,
+  "event": "fly",
+  "sound": "coin/coin_03_coin_dropped.wav",
+  "gain_db": -13,
+  "anchor": "onset",
+  "start": 14.62
+ },
+ {
+  "t": 15.22,
+  "event": "override",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -13,
+  "anchor": "onset",
+  "start": 15.22
+ },
+ {
+  "t": 16.64,
+  "event": "wipe",
+  "sound": "riser/riser_04_reverse_fx_3_wav.wav",
+  "gain_db": -12,
+  "anchor": "end",
+  "start": 15.766
+ },
+ {
+  "t": 16.8,
+  "event": "logo",
+  "sound": "cash/cash_01_cash_register.wav",
+  "gain_db": -7,
+  "anchor": "onset",
+  "start": 16.8
+ },
+ {
+  "t": 16.8,
+  "event": "logo",
+  "sound": "hit/hit_01_dull_decompression_punch_impact_explodes.wav",
+  "gain_db": -14,
+  "anchor": "onset",
+  "start": 16.8
+ },
+ {
+  "t": 17.22,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 17.22
+ },
+ {
+  "t": 17.37,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 17.37
+ },
+ {
+  "t": 17.52,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 17.52
+ },
+ {
+  "t": 18.2,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 17.985
+ },
+ {
+  "t": 18.35,
+  "event": "suck",
+  "sound": "riser/riser_01_reverse_fx_9_wav.wav",
+  "gain_db": -15,
+  "anchor": "end",
+  "start": 17.346
+ },
+ {
+  "t": 18.84,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 18.84
+ },
+ {
+  "t": 20.22,
+  "event": "exit",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -20,
+  "anchor": "peak",
+  "start": 20.174
+ },
+ {
+  "t": 20.72,
+  "event": "device_in",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -11,
+  "anchor": "peak",
+  "start": 20.415
+ },
+ {
+  "t": 21.47,
+  "event": "scan",
+  "sound": "D:/Work/EDITS/Some assets/Beeps/Beep-05.wav",
+  "gain_db": -14,
+  "anchor": "onset",
+  "start": 21.47
+ },
+ {
+  "t": 22.62,
+  "event": "tap",
+  "sound": "click/click_03_left_mouse_click.wav",
+  "gain_db": -8,
+  "anchor": "peak",
+  "start": 22.61
+ },
+ {
+  "t": 23.68,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 23.68
+ },
+ {
+  "t": 23.92,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 23.92
+ },
+ {
+  "t": 24.25,
+  "event": "tap",
+  "sound": "click/click_03_left_mouse_click.wav",
+  "gain_db": -8,
+  "anchor": "peak",
+  "start": 24.24
+ },
+ {
+  "t": 25.38,
+  "event": "device_out",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -16,
+  "anchor": "peak",
+  "start": 25.075
+ },
+ {
+  "t": 25.74,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 25.74
+ },
+ {
+  "t": 26.28,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 26.28
+ },
+ {
+  "t": 26.4,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 26.276
+ },
+ {
+  "t": 27.38,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 27.38
+ },
+ {
+  "t": 27.56,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 27.345
+ },
+ {
+  "t": 27.76,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 27.455
+ },
+ {
+  "t": 27.92,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 27.92
+ },
+ {
+  "t": 28.3,
+  "event": "count",
+  "sound": "tick/tick_02_assymetric_tick_wav.wav",
+  "gain_db": -16,
+  "anchor": "onset",
+  "start": 28.3
+ },
+ {
+  "t": 28.6,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 28.6
+ },
+ {
+  "t": 29.28,
+  "event": "exit",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -20,
+  "anchor": "peak",
+  "start": 29.234
+ },
+ {
+  "t": 29.82,
+  "event": "device_in",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -11,
+  "anchor": "peak",
+  "start": 29.515
+ },
+ {
+  "t": 30.6,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 30.6
+ },
+ {
+  "t": 32.38,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 32.38
+ },
+ {
+  "t": 33.7,
+  "event": "override",
+  "sound": "glass/glass_02_glassbottle_mp3.wav",
+  "gain_db": -9,
+  "anchor": "onset",
+  "start": 33.7
+ },
+ {
+  "t": 34.66,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 34.66
+ },
+ {
+  "t": 35.14,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 34.925
+ },
+ {
+  "t": 35.84,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 35.535
+ },
+ {
+  "t": 36.1,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 35.976
+ },
+ {
+  "t": 36.6,
+  "event": "override",
+  "sound": "glass/glass_02_glassbottle_mp3.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 36.6
+ },
+ {
+  "t": 37.22,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 37.005
+ },
+ {
+  "t": 38.53,
+  "event": "exit",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -20,
+  "anchor": "peak",
+  "start": 38.484
+ },
+ {
+  "t": 39.1,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 39.1
+ },
+ {
+  "t": 39.92,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 39.92
+ },
+ {
+  "t": 41.44,
+  "event": "device_out",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -16,
+  "anchor": "peak",
+  "start": 41.135
+ },
+ {
+  "t": 41.56,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 41.56
+ },
+ {
+  "t": 41.94,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 41.94
+ },
+ {
+  "t": 43.22,
+  "event": "override",
+  "sound": "glass/glass_02_glassbottle_mp3.wav",
+  "gain_db": -10,
+  "anchor": "onset",
+  "start": 43.22
+ },
+ {
+  "t": 43.42,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 43.42
+ },
+ {
+  "t": 44.68,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 44.556
+ },
+ {
+  "t": 45.86,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 45.86
+ },
+ {
+  "t": 47.32,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 47.105
+ },
+ {
+  "t": 48.82,
+  "event": "device_in",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -11,
+  "anchor": "peak",
+  "start": 48.515
+ },
+ {
+  "t": 48.98,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 48.98
+ },
+ {
+  "t": 51.46,
+  "event": "tap",
+  "sound": "click/click_03_left_mouse_click.wav",
+  "gain_db": -8,
+  "anchor": "peak",
+  "start": 51.45
+ },
+ {
+  "t": 52.26,
+  "event": "tap",
+  "sound": "click/click_03_left_mouse_click.wav",
+  "gain_db": -8,
+  "anchor": "peak",
+  "start": 52.25
+ },
+ {
+  "t": 53.16,
+  "event": "tap",
+  "sound": "click/click_03_left_mouse_click.wav",
+  "gain_db": -8,
+  "anchor": "peak",
+  "start": 53.15
+ },
+ {
+  "t": 54.1,
+  "event": "device_out",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -16,
+  "anchor": "peak",
+  "start": 53.795
+ },
+ {
+  "t": 54.4,
+  "event": "override",
+  "sound": "printer/printer_01_receipt_printer_01_wav.wav",
+  "gain_db": -15,
+  "anchor": "onset",
+  "start": 54.4
+ },
+ {
+  "t": 54.86,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 54.86
+ },
+ {
+  "t": 55.26,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 55.26
+ },
+ {
+  "t": 55.4,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 55.276
+ },
+ {
+  "t": 56.5,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 56.5
+ },
+ {
+  "t": 57.38,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 57.38
+ },
+ {
+  "t": 57.52,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 57.305
+ },
+ {
+  "t": 58.54,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 58.54
+ },
+ {
+  "t": 60.46,
+  "event": "override",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 60.46
+ },
+ {
+  "t": 60.92,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 60.92
+ },
+ {
+  "t": 61.15,
+  "event": "bell",
+  "sound": "bell/bell_01_desk_bell_1_wav.wav",
+  "gain_db": -5,
+  "anchor": "onset",
+  "start": 61.15
+ },
+ {
+  "t": 61.84,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 61.84
+ },
+ {
+  "t": 63.02,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 63.02
+ },
+ {
+  "t": 64.06,
+  "event": "override",
+  "sound": "glass/glass_02_glassbottle_mp3.wav",
+  "gain_db": -9,
+  "anchor": "onset",
+  "start": 64.06
+ },
+ {
+  "t": 65.58,
+  "event": "exit",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -20,
+  "anchor": "peak",
+  "start": 65.534
+ },
+ {
+  "t": 66.26,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 66.26
+ },
+ {
+  "t": 66.6,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 66.295
+ },
+ {
+  "t": 66.8,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 66.676
+ },
+ {
+  "t": 66.92,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 66.705
+ },
+ {
+  "t": 68.08,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 68.08
+ },
+ {
+  "t": 68.58,
+  "event": "count",
+  "sound": "tick/tick_02_assymetric_tick_wav.wav",
+  "gain_db": -16,
+  "anchor": "onset",
+  "start": 68.58
+ },
+ {
+  "t": 68.73,
+  "event": "count",
+  "sound": "tick/tick_02_assymetric_tick_wav.wav",
+  "gain_db": -16,
+  "anchor": "onset",
+  "start": 68.73
+ },
+ {
+  "t": 68.9,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 68.9
+ },
+ {
+  "t": 70.3,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 70.3
+ },
+ {
+  "t": 71.78,
+  "event": "exit",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -20,
+  "anchor": "peak",
+  "start": 71.734
+ },
+ {
+  "t": 72.58,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 72.58
+ },
+ {
+  "t": 73.62,
+  "event": "device_in",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -11,
+  "anchor": "peak",
+  "start": 73.315
+ },
+ {
+  "t": 73.92,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 73.92
+ },
+ {
+  "t": 74.35,
+  "event": "scan",
+  "sound": "D:/Work/EDITS/Some assets/Beeps/Beep-05.wav",
+  "gain_db": -14,
+  "anchor": "onset",
+  "start": 74.35
+ },
+ {
+  "t": 76.2,
+  "event": "tap",
+  "sound": "click/click_03_left_mouse_click.wav",
+  "gain_db": -8,
+  "anchor": "peak",
+  "start": 76.19
+ },
+ {
+  "t": 76.7,
+  "event": "override",
+  "sound": "glass/glass_02_glassbottle_mp3.wav",
+  "gain_db": -9,
+  "anchor": "onset",
+  "start": 76.7
+ },
+ {
+  "t": 78.16,
+  "event": "device_out",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -16,
+  "anchor": "peak",
+  "start": 78.036
+ },
+ {
+  "t": 79.2,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 79.2
+ },
+ {
+  "t": 79.72,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 79.72
+ },
+ {
+  "t": 79.88,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 79.665
+ },
+ {
+  "t": 80.92,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 80.92
+ },
+ {
+  "t": 81.82,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 81.82
+ },
+ {
+  "t": 83.14,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 83.14
+ },
+ {
+  "t": 84.28,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 83.975
+ },
+ {
+  "t": 85.1,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 85.1
+ },
+ {
+  "t": 86.08,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 86.08
+ },
+ {
+  "t": 86.86,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 86.645
+ },
+ {
+  "t": 88.24,
+  "event": "device_in",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -11,
+  "anchor": "peak",
+  "start": 87.935
+ },
+ {
+  "t": 88.72,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 88.72
+ },
+ {
+  "t": 89.0,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 88.695
+ },
+ {
+  "t": 89.35,
+  "event": "pop",
+  "sound": "coin/coin_03_coin_dropped.wav",
+  "gain_db": -15,
+  "anchor": "onset",
+  "start": 89.35
+ },
+ {
+  "t": 89.75,
+  "event": "pop",
+  "sound": "coin/coin_02_real_coin_drop.wav",
+  "gain_db": -15,
+  "anchor": "onset",
+  "start": 89.75
+ },
+ {
+  "t": 90.15,
+  "event": "pop",
+  "sound": "coin/coin_03_coin_dropped.wav",
+  "gain_db": -15,
+  "anchor": "onset",
+  "start": 90.15
+ },
+ {
+  "t": 90.55,
+  "event": "pop",
+  "sound": "coin/coin_02_real_coin_drop.wav",
+  "gain_db": -15,
+  "anchor": "onset",
+  "start": 90.55
+ },
+ {
+  "t": 91.0,
+  "event": "count",
+  "sound": "coin/coin_03_coin_dropped.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 91.0
+ },
+ {
+  "t": 91.93,
+  "event": "exit",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -20,
+  "anchor": "peak",
+  "start": 91.884
+ },
+ {
+  "t": 92.44,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 92.44
+ },
+ {
+  "t": 94.82,
+  "event": "device_out",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -16,
+  "anchor": "peak",
+  "start": 94.696
+ },
+ {
+  "t": 95.14,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 95.14
+ },
+ {
+  "t": 96.32,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 96.32
+ },
+ {
+  "t": 97.46,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 97.46
+ },
+ {
+  "t": 98.78,
+  "event": "exit",
+  "sound": "whoosh/whoosh_03_fast_whoosh_bamboo_swoosh_through_.wav",
+  "gain_db": -20,
+  "anchor": "peak",
+  "start": 98.734
+ },
+ {
+  "t": 99.32,
+  "event": "device_in",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -11,
+  "anchor": "peak",
+  "start": 99.015
+ },
+ {
+  "t": 99.5,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 99.5
+ },
+ {
+  "t": 101.96,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 101.96
+ },
+ {
+  "t": 102.6,
+  "event": "count",
+  "sound": "cash/cash_01_cash_register.wav",
+  "gain_db": -10,
+  "anchor": "onset",
+  "start": 102.6
+ },
+ {
+  "t": 103.12,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 103.12
+ },
+ {
+  "t": 104.72,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 104.72
+ },
+ {
+  "t": 105.36,
+  "event": "drop",
+  "sound": "whoosh/whoosh_01_whoosh_wav.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 105.055
+ },
+ {
+  "t": 106.7,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 106.7
+ },
+ {
+  "t": 107.52,
+  "event": "drop",
+  "sound": "whoosh/whoosh_02_whoosh_1.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 107.396
+ },
+ {
+  "t": 109.18,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 109.18
+ },
+ {
+  "t": 110,
+  "event": "slam",
+  "sound": "hit/hit_01_thud_pint_glass_beer_down_on_table_wood_.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 110.0
+ },
+ {
+  "t": 110.82,
+  "event": "slam",
+  "sound": "hit/hit_02_wood_plastic_hit_impact.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 110.82
+ },
+ {
+  "t": 111.42,
+  "event": "slam",
+  "sound": "hit/hit_04_body_hit_wav.wav",
+  "gain_db": -11,
+  "anchor": "onset",
+  "start": 111.42
+ },
+ {
+  "t": 111.62,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 111.62
+ },
+ {
+  "t": 112.86,
+  "event": "logo",
+  "sound": "hit/hit_01_dull_decompression_punch_impact_explodes.wav",
+  "gain_db": -14,
+  "anchor": "onset",
+  "start": 112.86
+ },
+ {
+  "t": 113.02,
+  "event": "wipe",
+  "sound": "riser/riser_04_reverse_fx_3_wav.wav",
+  "gain_db": -12,
+  "anchor": "end",
+  "start": 112.146
+ },
+ {
+  "t": 113.72,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 113.72
+ },
+ {
+  "t": 113.92,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 113.92
+ },
+ {
+  "t": 114.32,
+  "event": "drop",
+  "sound": "whoosh/whoosh_04_whoosh_bamboo_4.wav",
+  "gain_db": -15,
+  "anchor": "peak",
+  "start": 114.105
+ },
+ {
+  "t": 115.08,
+  "event": "pop",
+  "sound": "pop/pop_02_mouth_pop.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 115.08
+ },
+ {
+  "t": 115.32,
+  "event": "pop",
+  "sound": "pop/pop_04_mouth_pop_2.wav",
+  "gain_db": -12,
+  "anchor": "onset",
+  "start": 115.32
+ }
+]

@@ -249,3 +249,18 @@ This guarantees that when hero icons pop, zoom, or scale up to 300% during camer
 | **Picsum Photos** | Unsplash / Public Domain | ✅ Yes | ❌ No |
 | **Wikimedia Commons** | Public Domain / CC-BY-SA | ✅ Yes (Filter by Public Domain) | Check license metadata |
 | **QR Server API** | Free Public Service | ✅ Yes | ❌ No |
+
+
+---
+
+## Openverse (audio + images, licence-aware)
+`https://api.openverse.org/v1/audio/?q=whoosh&license=cc0&page_size=20` — no key for light use (page_size ≤ 20, else 401).
+Each result has `url` (direct file, often a Freesound HQ preview mp3), `duration` (ms), `license`, `creator`,
+`foreign_landing_url`. Images: `/v1/images/?q=...&license=cc0`. Script: `scripts/fetch_openverse_audio.py`
+(role folders + `manifest.json` for credits). Full SFX workflow: doc 22.
+
+## Fluent Emoji 3D (MIT) — colourful 3D icons that make kinetic type feel alive
+`https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/<Name>/3D/<name_snake>_3d.png`
+(e.g. `Shopping cart/3D/shopping_cart_3d.png`). They are 256 px: upscale x4 with
+`realesrgan-ncnn-vulkan -n realesrgan-x4plus-anime -s 4` (keeps alpha, clean edges) before using them big in 1080x1920.
+In AE: `ico()` helper in `projects/shopili-overhaul2/lib.jsx` (pop/drop/fly + bounce + drop shadow + float).
