@@ -34,7 +34,8 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 21-clinical-dental-3d-and-ifu-compliance.md # 3D clinical dental interventions, IFU compliance & 3D/flat harmonization
 │   ├── 22-real-sfx-earshot-openverse-pipeline.md # Real CC0 SFX from Openverse, earshot audit, cue-log timed mix
 │   ├── 23-premiere-stability-hardware-decode-and-crash-prevention.md # Premiere nvcuda64.dll deadlock, H.264 DPB limits & triage
-│   └── 24-drawn-documentary-motion-and-lib3d-engine.md # Anti-AI-slop drawn cutaways, perspective 3D camera & lib3d pipeline
+│   ├── 24-drawn-documentary-motion-and-lib3d-engine.md # Anti-AI-slop drawn cutaways, perspective 3D camera & lib3d pipeline
+│   └── 25-documentary-client-notes-and-lib3d-lessons.md # Owner's 30+ review notes → fixes, taste rules, lib3d pitfalls, 16GB render & Premiere MCP
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
@@ -74,6 +75,7 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── transcribe_vo_words.py                # faster-whisper word timestamps for VO-synced captions
 │   └── review_contact_sheet.py               # Footage overview + render QA contact sheets
 └── projects/
+    ├── nuclear-domino-documentary/           # 9-min code-rendered 3D geopolitics doc: lib3d engine, GLB phone, act scripts, render.mjs
     ├── shopili-overhaul2/                    # 117s POS ad: real SFX pipeline, one-line smart subs, 3D icon motion
     ├── ifix-duo-dental-ad/
     │   ├── README.md                         # i-FIX Duo 63.5s Master + 18s Reel: IFU protocol, storyboard & lessons
