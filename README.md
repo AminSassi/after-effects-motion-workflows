@@ -32,7 +32,9 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 19-dental-product-ad-workflow.md      # Clean minimal 9:16 dental product ads (MCP pipeline + lessons)
 │   ├── 20-blender-product-rendering-pipeline.md # Blender 3D product rendering, camera animations & QA pipeline
 │   ├── 21-clinical-dental-3d-and-ifu-compliance.md # 3D clinical dental interventions, IFU compliance & 3D/flat harmonization
-│   └── 22-real-sfx-earshot-openverse-pipeline.md # Real CC0 SFX from Openverse, earshot audit, cue-log timed mix
+│   ├── 22-real-sfx-earshot-openverse-pipeline.md # Real CC0 SFX from Openverse, earshot audit, cue-log timed mix
+│   ├── 23-premiere-stability-hardware-decode-and-crash-prevention.md # Premiere nvcuda64.dll deadlock, H.264 DPB limits & triage
+│   └── 24-drawn-documentary-motion-and-lib3d-engine.md # Anti-AI-slop drawn cutaways, perspective 3D camera & lib3d pipeline
 ├── expressions/
 │   ├── apple_text_drop_selector.js           # Apple kinetic text drop Expression Selector
 │   ├── depth_rack_focus.js                   # Dynamic 3D camera auto-focus tracking expression
@@ -68,6 +70,7 @@ This repository serves as a **living, evolving knowledge base** that is updated 
 │   ├── 3d_camera_null_chain.jsx              # Setup L.A.R.P. 3D camera & nested null hierarchy
 │   ├── apply_organic_text_texture.jsx        # Procedural ink bleed, grain & stop-motion text stack
 │   ├── dental_product_ad_builder.jsx         # Config-driven product ad builder: cards, captions, headlines, end card
+│   ├── triage_premiere.ps1                   # Triage & kill hung Premiere/CEP zombies, clear locked .ims cache
 │   ├── transcribe_vo_words.py                # faster-whisper word timestamps for VO-synced captions
 │   └── review_contact_sheet.py               # Footage overview + render QA contact sheets
 └── projects/
